@@ -1,3 +1,9 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/fjOilbth)
+# Reelog Movie Collector Journal Social Media website
 
-Tes push ke github
+## Description
+
+For this week assignment, i decide to made a simple movie collection journal social media. The idea behind this is, people can share their experience watching a movies. in this app people can add what movies they already watch, response to the movie, and rate the movie they're watching.
+
+## Documentation
+
+Postman app documentation Link : https://documenter.getpostman.com/view/26612511/2s93RUtrcx

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reelog - Dashboard</title>
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="container">
+        <div class="title-wrapper">
+          <h1 class="last-movie-watched">Avengers: Endgame</h1>
+          <p class="last-movies-watched-summary">
+            After the devastating events of Avengers: Infinity War (2018), the
+            universe is in ruins. With the help of remaining allies, the
+            Avengers assemble once more in order to reverse Thanos' actions and
+            restore balance to the universe.
+          </p>
+        </div>
+        <div class="watched-movie-container">
+          <div class="watched-title-container">
+            <h2>Watched Movies</h2>
+            <button class="add-btn">Add Movie</button>
+            <div class="input-group-container">
+              <div class="input-group-wrapper">
+                <input
+                  class="name-input"
+                  type="text"
+                  placeholder="Movie Name"
+                />
+                <input
+                  class="image-input"
+                  type="text"
+                  placeholder="Image Link"
+                />
+                <input
+                  class="video-input"
+                  type="text"
+                  placeholder="Video Link"
+                />
+                <input
+                  class="rate-input"
+                  type="number"
+                  min="1"
+                  max="5"
+                  placeholder="Movie Rating(1-5)"
+                />
+                <input
+                  class="summary-input"
+                  type="text"
+                  placeholder="Movie Summary"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="movie-list-container"></div>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="../../asset/js/dashboard.js" type="module" defer></script>
+  </body>
+</html>
